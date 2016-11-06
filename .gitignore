@@ -8,3 +8,5 @@ Thumb.db
 *.ai
 css/*.css
 build/
+gulp-full/
+~/.atom/gist-it.token
