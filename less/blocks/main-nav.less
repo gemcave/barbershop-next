@@ -58,8 +58,8 @@
   right: auto;
   left: 0;
 
-  &:before,
-  &:after {
+  &::before,
+  &::after {
     content: "";
     position: absolute;
     top: 24px;
@@ -216,6 +216,10 @@
     height: auto;
   }
 
+  .main-nav--nojs .main-nav__item{
+    display: block;
+  }
+  
   .main-nav--nojs .main-nav__item--active a {
     padding-right: 21px;
     padding-left: 21px;

@@ -4,17 +4,9 @@
   text-align: center;
 }
 
-.page-header__logo svg {
+.page-header__logo img {
   width: 230px;
   height: 85px;
-}
-
-.page-header__logo-barbershop {
-  display: none;
-}
-
-.page-header__logo-mustache {
-  display: none;
 }
 
 @media @tablet-widths {
@@ -30,7 +22,7 @@
     background-color: #000000;
   }
   .page-header__logo {
-  order: 2;
+    order: 2;
 
  /* position: absolute;
     bottom: 0; */
@@ -52,9 +44,10 @@
       background-size: 1338px auto;
     }
   }
-  .page-header__logo svg {
+
+  .page__header__logo img {
     position: absolute;
-    top: 39px;
+    bottom: 257px;
     left: 50%;
 
     width: 370px;
@@ -62,12 +55,7 @@
 
     transform: translateX(-50%);
   }
-
-  .page-header__logo-barbershop {
-    display: inline-block;
-  }
 }
-
 @media @desktop-widths {
   .page-header {
     // padding-bottom: 648px;
@@ -79,11 +67,7 @@
     background-size: cover;
   }
 
-  .page-header__logo svg {
-    top: 57px;
-  }
-
-  .page-header__logo-mustache {
-    display: inline-block;
+  .page-header__logo img {
+    bottom: 438px;
   }
 }
